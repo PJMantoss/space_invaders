@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 alienInvaders[i].classList.add('invader')
             }
         }
-
+         //Logic to decide if a game is over
         if (squares[currentShooterIndex].classList.contains('invader', 'shooter')){
             resultDisplay.textContent = 'Game Over!';
             squares[currentShooterIndex].classList.add('boom');
