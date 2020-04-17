@@ -112,6 +112,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(() => squares[currentLaserIndex].classList.remove('laser'), 100);
             }
         }
+
+        switch(e.keyCode){
+            case 32:
+                laserId = setInterval(moveLaser, 100);
+        }
     }
 
 })
