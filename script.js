@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(alienInvadersTakenDown.length);
             console.log(alienInvaders.length);
             resultDisplay.textContent = 'You Win!';
-            clearInterval(intervalId);
+            clearInterval(invaderId);
         }
     }
 
