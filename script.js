@@ -100,6 +100,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 setTimeout(() => squares[currentLaserIndex].classList.remove('boom'), 250);
                 clearInterval(laserId);
+
+                const alienTakenDown = alienInvaders.indexOf(currentLaserIndex);
+                alienInvadersTakenDown.push(alienTakenDown);
+                result++;
+                resultDisplay.textContent = result;
             }
         }
     }
