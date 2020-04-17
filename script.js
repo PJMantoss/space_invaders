@@ -89,7 +89,10 @@ document.addEventListener('DOMContentLoaded', () => {
         let laserId;
         let currentLaserIndex = currentShooterIndex
         //move the laser from the shooter to the alien invader
-        moveLaser = () => {}
+        moveLaser = () => {
+            squares[currentLaserIndex].classList.remove('laser');
+            currentLaserIndex -= width;
+        }
     }
 
 })
