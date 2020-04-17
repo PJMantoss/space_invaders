@@ -77,4 +77,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     intervalId = setInterval(moveInvaders, 500);
 
+    //Shoot down aliens
+    shoot = e => {
+        
+    }
+
 })
