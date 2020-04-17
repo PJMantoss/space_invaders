@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alienInvaders[i] += direction;
         }
         for (let i = 0; i <= alienInvaders.length - 1; i++){
-            if (!alienInvadersTakenDown.includes(1)){
+            if (!alienInvadersTakenDown.includes(i)){
                 alienInvaders[i].classList.add('invader')
             }
         }
