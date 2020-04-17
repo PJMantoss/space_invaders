@@ -38,4 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.addEventListener('keydown', moveShooter);
 
+    //move the alien invaders
+    
+
 })
