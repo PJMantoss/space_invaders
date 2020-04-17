@@ -10,3 +10,16 @@
     width: 20px;
     height: 20px;
 }
+
+.shooter {
+    background-color: blue;
+}
+
+.invader {
+    background: purple;
+    border-radius: 10px;
+}
+
+.boom {
+    background: red;
+}
