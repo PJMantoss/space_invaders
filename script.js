@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         for (let i = 0; i <= alienInvaders.length - 1; i++){
             if (!alienInvadersTakenDown.includes(i)){
-                alienInvaders[i].classList.add('invader')
+                squares[alienInvaders[i]].classList.add('invader')
             }
         }
          //Logic to decide if a game is over
