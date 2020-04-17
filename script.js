@@ -106,6 +106,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 result++;
                 resultDisplay.textContent = result;
             }
+
+            if(currentLaserIndex < width){
+                clearInterval(laserId);
+                setTimeout(() => squares[currentLaserIndex].classList.remove('laser'), 100);
+            }
         }
     }
 
