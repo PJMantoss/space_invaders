@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const rightEdge = alienInvaders[alienInvaders.length - 1] % width === width - 1;
 
         if ((leftEdge && direction === -1) || (rightEdge && direction === 1)){
-            direction === width
+            direction === width;
         } else if (direction === width) {
             if (leftEdge) direction = 1;
             else direction = -1;
