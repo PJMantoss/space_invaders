@@ -79,7 +79,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //Shoot down aliens
     shoot = e => {
-        
+        let laserId;
+        let currentLaserIndex = currentShooterIndex
+        //move the laser from the shooter to the alien invader
+        moveLaser = () => {}
     }
 
 })
