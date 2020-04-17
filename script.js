@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         switch(e.keyCode){
-            case 65:
+            case 38:
                 laserId = setInterval(moveLaser, 100);
                 break;
         }
