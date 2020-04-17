@@ -60,6 +60,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 alienInvaders[i].classList.add('invader')
             }
         }
+
+        if (squares[currentShooterIndex].classList.contains('invader', 'shooter')){
+            resultDisplay.textContent = 'Game Over!';
+            squares[currentShooterIndex].classList.add('boom');
+            clearInterval(invaderId);
+        }
     }
+
+    if (alienInvadersTakenDown.length === alienInvaders.length){
+        console.log(alienInvadersTakenDown.length);
+        console.log(alienInvaders.length);
+        resultDisplay.textContent = 'You Win!';
+        clearInterval(intervalId);
+    }
+
+    intervalId = setInterval(moveInvaders, 500);
 
 })
