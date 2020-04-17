@@ -99,6 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 squares[currentLaserIndex].classList.add('boom');
 
                 setTimeout(() => squares[currentLaserIndex].classList.remove('boom'), 250);
+                clearInterval(laserId);
             }
         }
     }
