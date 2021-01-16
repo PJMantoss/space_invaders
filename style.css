@@ -7,12 +7,18 @@ body {
     background: rgb(59, 59, 59);
 }
 
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
 main {
     display: block;
     width: 100%;
     max-width: 350px;
     margin: 50px auto 0;
 }
+
 .grid {
     background: skyblue;
     display: flex;
